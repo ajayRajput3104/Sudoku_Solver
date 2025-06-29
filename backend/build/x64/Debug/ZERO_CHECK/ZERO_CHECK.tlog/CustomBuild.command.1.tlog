@@ -1,0 +1,10 @@
+^C:\USERS\ASUS\ONEDRIVE\DOCUMENTS\PROJECTS\SUDOKU_SOLVER\BACKEND\BUILD\CMAKEFILES\C63E3E3DCE21553DA49653105AA6C4B6\GENERATE.STAMP.RULE
+setlocal
+C:\Users\asus\AppData\Roaming\Python\Python313\site-packages\cmake\data\bin\cmake.exe -SC:/Users/asus/OneDrive/Documents/Projects/Sudoku_Solver/backend -BC:/Users/asus/OneDrive/Documents/Projects/Sudoku_Solver/backend/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/asus/OneDrive/Documents/Projects/Sudoku_Solver/backend/build/SudokuSolver.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
